@@ -9,3 +9,6 @@ var clientData = {
 function getUserInput(firstName, lastName, callback) {
     callback(firstName, lastName);
 }
+getUserInput("barack", "obama", clientData.setUserName);
+console.log(clientData.fullName);
+//console.log(window.fullName);
